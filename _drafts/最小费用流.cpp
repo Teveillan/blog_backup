@@ -1,10 +1,3 @@
-title: 最小费用流
-categories: Algorithm
-date: 2015-01-04 15:21:44
-tags:
-description:
----
-```c++
 #define INF 1e9
 #define N 1000
 #define M 1000100
@@ -81,4 +74,3 @@ void add(int u,int v,int f,int c)
     edge[ip].to=v;edge[ip].flow=f;edge[ip].next=head[u];edge[ip].cost=c;head[u]=ip++;
     edge[ip].to=u;edge[ip].flow=0;edge[ip].next=head[v];edge[ip].cost=-c;head[v]=ip++;
 }
-```
