@@ -1,7 +1,3 @@
-title: "SPFA模板"
-tags: [Model]
----
-
 #define INF 1e9
 #define N 
 #define M   
