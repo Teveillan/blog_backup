@@ -39,7 +39,7 @@ class ANewHope
 
 ```
 
-##Middle: The Empire Strikes Back
+##Medium: The Empire Strikes Back
 题意：有n颗行星，坐标$(x_i, y_i)$。有m发子弹，当子弹威力为w时，对准一颗行星，可以消灭(0, 0)~$(x_i, y_i)$矩形内的行星。
 问子弹威力最小应为多少。
 
